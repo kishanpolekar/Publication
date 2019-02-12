@@ -1,0 +1,14 @@
+CS4600 PROJECT - Publication Services
+Kishan Polekar
+
+Project Description: The program supports entering information for different publications. It includes details of author(s), title, year, publication location, and pages. It also includes a search feature to search for authors, titles, etc. They can be sorted, arranged, listed as a group, and more. The application also supports search based on keywords; on the entire database as well as on the individual views.
+
+Information Stored: Publication title, Publication type (book, paper, journal, etc.), author(s), year, location, number of pages.
+
+Cardinality and Participation Constraints: Each publication should have or should belong to at least one author. One author can have n publications. One publication can have multiple locations. One publication should have only one title. It should also have only one year.
+
+User Interface: There will be an initial screen that displays the store information. Add publication, edit publication, search publication, delete publication are some buttons that will be there. User will be able to navigate from there.
+
+Functionality: When a publication is added, the db appends the record to the existing list of publications. It is added to the particular year primarily. Edit can be used after the search feature. There is a two factor search that searches for the exact publication. First is the title, which is unique along with the author(s) name(s). After the publication is found, the user will edit particular information, and save it back. The delete function removes the publication from the database. Search will return a list of publications that match with the given search criteria.
+
+DBMS: sql server (xampp) Programming Languages: sql, php, asp
